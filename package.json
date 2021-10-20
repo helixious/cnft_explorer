@@ -1,0 +1,35 @@
+{
+  "name": "cnft_explorer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node -r esm app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r esm app.js",
+    "twitter": "nodemon -r esm twitter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helixious/cnft_explorer.git"
+  },
+  "author": "sle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helixious/cnft_explorer/issues"
+  },
+  "homepage": "https://github.com/helixious/cnft_explorer#readme",
+  "dependencies": {
+    "@emurgo/cardano-serialization-lib-nodejs": "^9.1.0",
+    "axios": "^0.21.4",
+    "bech32": "^2.0.0",
+    "cardanocli-js": "^4.0.1",
+    "esm": "^3.2.25",
+    "pg": "^8.7.1",
+    "tsv": "^0.2.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.13"
+  }
+}
